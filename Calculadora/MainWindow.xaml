@@ -1,0 +1,39 @@
+﻿<Window x:Class="Calculadora.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calculadora"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10" />
+            <ColumnDefinition Width="760" />
+            <ColumnDefinition Width="10" />
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100" />
+            <RowDefinition Height="150" />
+            <RowDefinition Height="100" />
+        </Grid.RowDefinitions>
+
+        <Label FontSize="20" Width="auto" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Grid.Column="1">Calculadora do Ifro</Label>
+
+        <TextBox BorderThickness="1" Name="primeiro" FontSize="20" TextAlignment="Center" VerticalContentAlignment="Center" Grid.Row="1" Grid.Column="1" Margin="221,48,477,30" Height="57"></TextBox>
+        <TextBox BorderThickness="1" Name="segundo" FontSize="20" TextAlignment="Center" VerticalContentAlignment="Center" Grid.Row="1" Grid.Column="1" Margin="474,48,224,30" Height="57"></TextBox>
+
+        <Label Name="result" FontSize="20" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Grid.Column="1" Grid.Row="2" Margin="0,0,0,59">Resultado</Label>
+
+        <Button Click="adicao" Grid.Row="2" Grid.Column="1" Margin="193,64,503,-27">+</Button>
+        <Button Click="subtracao" Grid.Row="2" Grid.Column="1" Margin="298,64,398,-27">-</Button>
+        <Button Click="multiplicacao" Grid.Row="2" Grid.Column="1" Margin="404,64,292,-27">*</Button>
+        <Button Click="divisao" Grid.Row="2" Grid.Column="1" Margin="505,64,191,-27">÷</Button>
+        <Label Content="" Grid.Column="1" HorizontalAlignment="Left" Margin="214,10,0,0" Grid.Row="1" VerticalAlignment="Top" RenderTransformOrigin="-0.037,-0.125"/>
+
+
+    </Grid>
+
+</Window>
