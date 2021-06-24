@@ -20,6 +20,7 @@ namespace SISPRE_Usuario
     /// </summary>
     public partial class MainWindow : Window
     {
+        private Pessoa pessoa = new Pessoa();
         public MainWindow()
         {
             InitializeComponent();
@@ -28,19 +29,89 @@ namespace SISPRE_Usuario
         private void Salvar_usuario_Click(object sender, RoutedEventArgs e)
         {
 
-          
-        }
+            String senha, confirmasenha;
 
+            senha = txtSenha.Password;
+            confirmasenha = txtConfirmaSenha.Password;
+
+            pessoa.Nome = txtNome.Text;
+            pessoa.Data_nasc = txtData_nasc.Text;
+            pessoa.Cpf = txtCpf.Text;
+            pessoa.Rg = txtRg.Text;
+            pessoa.Email = txtEmail.Text;
+
+            if (pessoa.Nome.Equals(""))
+            {
+                MessageBox.Show("O campo Nome está vazio!!!");
+            }
+
+            if (pessoa.Data_nasc.Equals(""))
+            {
+                MessageBox.Show("O campo Data de Nascimento está vazio!!!");
+            }
+            if (pessoa.Cpf.Equals(""))
+            {
+                MessageBox.Show("O campo CPF está vazio!!!");
+            }
+            if (pessoa.Rg.Equals(""))
+            {
+                MessageBox.Show("O campo RG está vazio!!!");
+            }
+            if (pessoa.Email.Equals(""))
+            {
+                MessageBox.Show("O campo E-mail está vazio!!!");
+            }
+            if (senha.Equals(""))
+            {
+                MessageBox.Show("O campo Senha está vazio!!!");
+            }
+            if (confirmasenha.Equals(""))
+            {
+                MessageBox.Show("O campo Confirmar Senha está vazio!!!");
+            }
+            else {
+                MessageBox.Show($"Nome:{ pessoa.Nome}\n" +
+                    $"Data de Nascimento:{ pessoa.Data_nasc}\n" +
+                    $"CPF:{ pessoa.Cpf}\n" +
+                    $"RG:{ pessoa.Rg}\n" +
+                    $"E-mail:{ pessoa.Email}\n");
+
+                ClearTextBox();
+            }
+            
+        }
+        private void ClearTextBox()
+        {
+            txtNome.Text = "";
+            txtData_nasc.Text = "";
+            txtCpf.Text = "";
+            txtRg.Text = "";
+            txtEmail.Text = "";
+        }
 
         private void Add_usuario_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow janela = new MainWindow();
-            janela.ShowDialog();
+            MainWindow telacad_usuario = new MainWindow();
+            telacad_usuario.ShowDialog();
         }
 
         private void Consultar_usuario_Click(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        private void btn_versao_Click(object sender, RoutedEventArgs e)
+        {
+            VersaoWindow vsDialog = new VersaoWindow();
+            vsDialog.ShowDialog();
+        }
+
+        private void btn_sair_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBoxResult result = MessageBox.Show("Deseja realmente sair da janela?", "Janela-Cadastro de Usuário", MessageBoxButton.YesNo, MessageBoxImage.Question);
+
+            if (result == MessageBoxResult.Yes)
+                this.Close();
         }
     }
 }
