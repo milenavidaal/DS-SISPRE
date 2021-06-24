@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace SISPRE_Usuario
+namespace Menu_Principal
 {
     /// <summary>
     /// Interação lógica para MainWindow.xam
@@ -23,24 +23,6 @@ namespace SISPRE_Usuario
         public MainWindow()
         {
             InitializeComponent();
-        }
-
-        private void Salvar_usuario_Click(object sender, RoutedEventArgs e)
-        {
-
-          
-        }
-
-
-        private void Add_usuario_Click(object sender, RoutedEventArgs e)
-        {
-            MainWindow janela = new MainWindow();
-            janela.ShowDialog();
-        }
-
-        private void Consultar_usuario_Click(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }

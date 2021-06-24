@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{33758F27-8B2B-4886-AA9D-EE4C5232E139}</ProjectGuid>
+    <ProjectGuid>{B143F77F-FF02-410E-B12A-9CFC0CE44653}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>SISPRE_Usuario</RootNamespace>
-    <AssemblyName>SISPRE_Usuario</AssemblyName>
+    <RootNamespace>Menu_Principal</RootNamespace>
+    <AssemblyName>Menu_Principal</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -55,14 +55,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="Checa_usuario.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Confirmacao_usuario.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -70,12 +62,6 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Checa_usuario.xaml.cs">
-      <DependentUpon>Checa_usuario.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Confirmacao_usuario.xaml.cs">
-      <DependentUpon>Confirmacao_usuario.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>

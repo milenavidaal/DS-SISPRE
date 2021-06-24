@@ -10,37 +10,26 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace SISPRE_Usuario
 {
     /// <summary>
-    /// Interação lógica para MainWindow.xam
+    /// Lógica interna para Confirmacao_usuario.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Confirmacao_usuario : Window
     {
-        public MainWindow()
+        public Confirmacao_usuario()
         {
             InitializeComponent();
         }
 
-        private void Salvar_usuario_Click(object sender, RoutedEventArgs e)
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
-
+           
+                this.Close();
+            
           
-        }
-
-
-        private void Add_usuario_Click(object sender, RoutedEventArgs e)
-        {
-            MainWindow janela = new MainWindow();
-            janela.ShowDialog();
-        }
-
-        private void Consultar_usuario_Click(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }

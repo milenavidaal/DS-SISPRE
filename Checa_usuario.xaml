@@ -1,0 +1,17 @@
+﻿<Window x:Class="SISPRE_Usuario.Checa_usuario"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SISPRE_Usuario"
+        mc:Ignorable="d"
+        Title="Checa_usuario" Height="484" Width="806">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="139*"/>
+            <ColumnDefinition Width="257*"/>
+        </Grid.ColumnDefinitions>
+        
+    </Grid>
+</Window>
