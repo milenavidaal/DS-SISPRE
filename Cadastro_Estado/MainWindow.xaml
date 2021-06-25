@@ -5,8 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Cadastro_Estado"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="Cadastro Estado" Height="364" Width="627">
+    <Grid Margin="0,0,15,6">
+
+        <Label Content="Código" HorizontalAlignment="Left" Margin="52,43,0,0" VerticalAlignment="Top"/>
+        <Label Content="Nome do Estado" HorizontalAlignment="Left" Margin="10,82,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.447,-0.808"/>
+        <Label Content="País em que se localiza" HorizontalAlignment="Left" Margin="10,113,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.447,-0.808"/>
+        <Label Content="Sigla do Estado" HorizontalAlignment="Left" Margin="18,159,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.447,-0.808"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="146,43,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="77"/>
+        <TextBox x:Name="txtNomeestado" HorizontalAlignment="Left" Height="23" Margin="146,82,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="342"/>
+        <TextBox x:Name="txtPaisestado" HorizontalAlignment="Left" Height="23" Margin="146,113,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="342"/>
+        <TextBox x:Name="txtSiglaestado" HorizontalAlignment="Left" Height="23" Margin="146,159,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="77"/>
+        <Button x:Name="BtnSalvarEst" Content="Salvar" HorizontalAlignment="Left" Margin="146,222,0,0" VerticalAlignment="Top" Width="75" Height="41" Click="BtnSalvarEst_Click"/>
     </Grid>
 </Window>
