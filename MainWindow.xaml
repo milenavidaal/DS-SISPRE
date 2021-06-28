@@ -5,8 +5,62 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SISPRE_Usuario"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="MainWindow" Height="607.75" Width="741">
+    <Grid Margin="10,211,2,7">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="187*"/>
+            <RowDefinition Height="137*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="104*"/>
+            <ColumnDefinition Width="41*"/>
+            <ColumnDefinition Width="489*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Código" HorizontalAlignment="Left" Margin="22,-178,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="Nome" HorizontalAlignment="Left" Margin="28,-143,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="Data de Nascimento" HorizontalAlignment="Left" Margin="22,-102,0,0" VerticalAlignment="Top" Grid.ColumnSpan="3" FontSize="16" Width="152"/>
+        <Label Content="Idade" HorizontalAlignment="Left" Margin="236,-102,0,0" VerticalAlignment="Top" Grid.Column="2" FontSize="16"/>
+        <Label Content="CPF" HorizontalAlignment="Left" Margin="29,-58,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="RG" HorizontalAlignment="Left" Margin="180,-60,0,0" VerticalAlignment="Top" Width="75" Grid.Column="2" FontSize="16"/>
+        <Label Content="Ocupação na Empresa" HorizontalAlignment="Left" Margin="19,-16,0,0" VerticalAlignment="Top" Grid.ColumnSpan="3" FontSize="16" Width="175"/>
+        <Label Content="Para Acessar" HorizontalAlignment="Left" Margin="86,38,0,0" VerticalAlignment="Top" Grid.Column="2" FontSize="20"/>
+        <Label Content="E-mail (válido)" HorizontalAlignment="Left" Margin="22,108,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" FontSize="16"/>
+        <Label Content="Senha" HorizontalAlignment="Left" Margin="51,160,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.333,5.231" FontSize="16" Grid.RowSpan="2"/>
+        <Label Content="Confirmar Senha" HorizontalAlignment="Left" Margin="9,17,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" FontSize="16" Grid.Row="1"/>
+        <TextBox x:Name="txtNome" HorizontalAlignment="Left" Height="26" Margin="90,-143,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="466" Grid.ColumnSpan="3"/>
+        <DatePicker x:Name="txtData_nasc" HorizontalAlignment="Left" Margin="14,-102,0,0" VerticalAlignment="Top" Width="213" Grid.Column="2" Height="31"/>
+        <TextBox x:Name="txtCpf" HorizontalAlignment="Left" Height="23" Margin="78,-54,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="218" Grid.ColumnSpan="3"/>
+        <TextBox x:Name="txtRg" HorizontalAlignment="Left" Height="23" Margin="213,-54,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="166" Grid.Column="2"/>
+        <RadioButton Content="Dono" Grid.Column="2" HorizontalAlignment="Left" Margin="34,-8,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <RadioButton Content="Funcionário" Grid.Column="2" HorizontalAlignment="Left" Margin="147,-8,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Separator HorizontalAlignment="Left" Height="40" Margin="15,19,0,0" VerticalAlignment="Top" Width="691" Grid.ColumnSpan="3" FontSize="16"/>
+        <TextBox x:Name="txtEmail" Grid.Column="1" HorizontalAlignment="Left" Height="27" Margin="21,112,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="281" Grid.ColumnSpan="2"/>
+        <PasswordBox x:Name="txtSenha" HorizontalAlignment="Left" Margin="24,168,0,0" VerticalAlignment="Top" Width="211" Grid.ColumnSpan="2" Grid.Column="1" Height="23" Grid.RowSpan="2"/>
+        <PasswordBox x:Name="txtConfirmaSenha" Grid.Column="1" HorizontalAlignment="Left" Margin="24,27,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Width="211" Height="21" Grid.Row="1"/>
+        <Button Content="Retroceder" Grid.Column="2" HorizontalAlignment="Left" Margin="41,117,0,0" VerticalAlignment="Top" Width="75" Grid.Row="1"/>
+        <Button Content="Avançar" Grid.Column="2" HorizontalAlignment="Left" Margin="236,117,0,0" VerticalAlignment="Top" Width="75" Grid.Row="1"/>
+        <Button x:Name="Salvar_usuario" Content="Salvar" Grid.Column="2" HorizontalAlignment="Left" Margin="438,97,0,0" VerticalAlignment="Top" Width="81" Height="42" Click="Salvar_usuario_Click"/>
+        <Button x:Name="Consultar_usuario" Content="Consultar" Grid.Column="2" HorizontalAlignment="Left" Margin="438,4,0,0" VerticalAlignment="Top" Width="81" Height="44" Click="Consultar_usuario_Click" Grid.Row="1"/>
+
+        <Menu Margin="-10,-210,28,390" Grid.ColumnSpan="2">
+            <MenuItem Header="_Arquivo">
+                <MenuItem Header="_Novo">
+                    <MenuItem.Icon>
+                        <Image Source="/Imagens/novoicone.png" Height="169" Margin="0,0,-11,0"/>
+                    </MenuItem.Icon>
+
+                </MenuItem>
+
+                <MenuItem Header="_Abrir"/>
+                <Separator/>
+                <MenuItem Header="_Sair" Click="btn_sair_Click"/>
+            </MenuItem>
+            <MenuItem Header="_Sobre">
+                <MenuItem x:Name="btn_versao" Header="_Versão" Click="btn_versao_Click"/>
+            </MenuItem>
+
+        </Menu>
+        <TextBox Grid.ColumnSpan="3" HorizontalAlignment="Left" Height="29" Margin="90,-180,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="29" Margin="286,-100,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="105" Grid.Column="2"/>
     </Grid>
 </Window>
