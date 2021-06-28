@@ -6,10 +6,10 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace Notas_Compra
+namespace Cadastro_Estado
 {
     /// <summary>
-    /// Interaction logic for App.xaml
+    /// Interação lógica para App.xaml
     /// </summary>
     public partial class App : Application
     {

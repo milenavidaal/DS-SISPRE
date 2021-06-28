@@ -13,33 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Notas_Compra
+namespace Cadastro_Cidade
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interação lógica para MainWindow.xam
     /// </summary>
     public partial class MainWindow : Window
     {
         public MainWindow()
         {
             InitializeComponent();
-        }
-        private void um_Checked(object sender, RoutedEventArgs e)
-        {
-
-            dois.IsChecked = false;
-            fisica.IsEnabled = false;
-            juridica.IsEnabled = true;
-            fisica.Text = "";
-
-        }
-
-        private void dois_Checked(object sender, RoutedEventArgs e)
-        {
-            um.IsChecked = false;
-            juridica.IsEnabled = false;
-            fisica.IsEnabled = true;
-            juridica.Text = "";
         }
     }
 }
