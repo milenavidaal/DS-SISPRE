@@ -24,5 +24,21 @@ namespace Importação_de_NF_e_de_Entrada
 		{
 			InitializeComponent();
 		}
+
+		private void confirmacao_Importar(object sender, RoutedEventArgs e)
+		{
+			MessageBoxResult result = MessageBox.Show("Notas Importadas com Sucesso!!", "Mensagem de Confirmação");
+		}
+
+		private void alerta_Excluir(object sender, RoutedEventArgs e)
+		{
+			MessageBoxResult result = MessageBox.Show("Deseja realmente excluir a importação?", "Mensagem de Alerta", MessageBoxButton.YesNo, MessageBoxImage.Question);
+
+			if (result == MessageBoxResult.Yes)
+			{
+				MessageBox.Show("Notas Excluídas com Sucesso");
+				this.Close();
+			}
+       	}
 	}
 }
