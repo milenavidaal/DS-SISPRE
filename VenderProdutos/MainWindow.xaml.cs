@@ -23,6 +23,28 @@ namespace VenderProdutos
         public MainWindow()
         {
             InitializeComponent();
+            Loaded += MainWindow_Loaded;
+
+        }
+        public void MainWindow_Loaded(object sender, RoutedEventArgs e) 
+        {
+            List<Venda> listaVenda = new List<Venda>();
+
+            for (int i = 0; i < 30; i++)
+            {
+                listaVenda.Add(new Venda()
+                {
+                    Item = i + 1,
+                    NomeProduto = "Produto - " + i,
+                    Und = 1,
+                    ValorUnitario = 1 + i,
+                    Quantidade = 1 + i,
+                    Desconto = 0,
+                    ValorTotal = 5 + i,
+                });
+            }
+
+            datagridVenda.ItemsSource = listaVenda;
         }
     }
 }
