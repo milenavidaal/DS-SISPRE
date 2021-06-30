@@ -1,0 +1,15 @@
+C:\Users\Ana Beatriz\Desktop\Git Hub\DS-SISPRE\OrcamentoTotal\OrcamentoTotal\bin\Debug\OrcamentoTotal.exe.config
+C:\Users\Ana Beatriz\Desktop\Git Hub\DS-SISPRE\OrcamentoTotal\OrcamentoTotal\bin\Debug\OrcamentoTotal.exe
+C:\Users\Ana Beatriz\Desktop\Git Hub\DS-SISPRE\OrcamentoTotal\OrcamentoTotal\bin\Debug\OrcamentoTotal.pdb
+C:\Users\Ana Beatriz\Desktop\Git Hub\DS-SISPRE\OrcamentoTotal\OrcamentoTotal\obj\Debug\OrcamentoTotal.csproj.AssemblyReference.cache
+C:\Users\Ana Beatriz\Desktop\Git Hub\DS-SISPRE\OrcamentoTotal\OrcamentoTotal\obj\Debug\MainWindow.g.cs
+C:\Users\Ana Beatriz\Desktop\Git Hub\DS-SISPRE\OrcamentoTotal\OrcamentoTotal\obj\Debug\App.g.cs
+C:\Users\Ana Beatriz\Desktop\Git Hub\DS-SISPRE\OrcamentoTotal\OrcamentoTotal\obj\Debug\OrcamentoTotal_MarkupCompile.cache
+C:\Users\Ana Beatriz\Desktop\Git Hub\DS-SISPRE\OrcamentoTotal\OrcamentoTotal\obj\Debug\OrcamentoTotal_MarkupCompile.lref
+C:\Users\Ana Beatriz\Desktop\Git Hub\DS-SISPRE\OrcamentoTotal\OrcamentoTotal\obj\Debug\MainWindow.baml
+C:\Users\Ana Beatriz\Desktop\Git Hub\DS-SISPRE\OrcamentoTotal\OrcamentoTotal\obj\Debug\OrcamentoTotal.g.resources
+C:\Users\Ana Beatriz\Desktop\Git Hub\DS-SISPRE\OrcamentoTotal\OrcamentoTotal\obj\Debug\OrcamentoTotal.Properties.Resources.resources
+C:\Users\Ana Beatriz\Desktop\Git Hub\DS-SISPRE\OrcamentoTotal\OrcamentoTotal\obj\Debug\OrcamentoTotal.csproj.GenerateResource.cache
+C:\Users\Ana Beatriz\Desktop\Git Hub\DS-SISPRE\OrcamentoTotal\OrcamentoTotal\obj\Debug\OrcamentoTotal.csproj.CoreCompileInputs.cache
+C:\Users\Ana Beatriz\Desktop\Git Hub\DS-SISPRE\OrcamentoTotal\OrcamentoTotal\obj\Debug\OrcamentoTotal.exe
+C:\Users\Ana Beatriz\Desktop\Git Hub\DS-SISPRE\OrcamentoTotal\OrcamentoTotal\obj\Debug\OrcamentoTotal.pdb
