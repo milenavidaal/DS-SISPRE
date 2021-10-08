@@ -62,6 +62,6 @@ namespace DS_SISPRE
             var textBox = sender as TextBox;
             e.Handled = Regex.IsMatch(e.Text, "[^0-9]+");
         }
-
+      
     }
 }

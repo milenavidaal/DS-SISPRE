@@ -72,7 +72,7 @@
         <Label Content="Cidade" HorizontalAlignment="Left" Margin="392,322,0,0" VerticalAlignment="Top" Width="88" Height="35" FontSize="17"/>
         <TextBox x:Name="cidade" HorizontalAlignment="Left" Margin="466,329,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294" Height="22" FontSize="17"/>
         <Label Content="Cep" HorizontalAlignment="Left" Margin="10,371,0,0" VerticalAlignment="Top" Width="87" Height="35" FontSize="17"/>
-        <TextBox x:Name="cep" HorizontalAlignment="Left" Margin="70,378,0,0" TextWrapping="Wrap" VerticalAlignment="Top" PreviewTextInput="TextBox_PreviewTextInput" Width="140" Height="22" FontSize="17" MaxLength="9" MaxLines="2"/>
+        <TextBox x:Name="cep" HorizontalAlignment="Left" Margin="70,378,0,0" TextWrapping="Wrap" VerticalAlignment="Top" PreviewTextInput="TextBox_PreviewTextInput" Width="140" Height="22" FontSize="17" MaxLength="9" MaxLines="2" />
         <Label Content="Bairro" HorizontalAlignment="Left" Margin="253,371,0,0" VerticalAlignment="Top" Width="87" Height="35" FontSize="17"/>
         <TextBox x:Name="bairro" HorizontalAlignment="Left" Margin="319,378,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294" Height="22" FontSize="17"/>
         <Button x:Name="voltar" HorizontalAlignment="Left" Margin="382,511,0,0" VerticalAlignment="Top" Height="33" Width="100" Content="Voltar" Click="voltar_Click"/>

@@ -22,12 +22,6 @@
     <Compile Update="Contas_Receber.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Controle_Relatorios.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="Financas.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Update="NF-E_Entrada.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -40,10 +34,10 @@
     <Compile Update="Orcamento.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Pesquisa_NF-E.xaml.cs">
+    <Compile Update="Prod_Cadastrados.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Prod_Cadastrados.xaml.cs">
+    <Compile Update="Recuperar_senha.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Vender_Produtos.xaml.cs">
@@ -66,12 +60,6 @@
     <Page Update="Contas_Receber.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Controle_Relatorios.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="Financas.xaml">
-      <SubType>Designer</SubType>
-    </Page>
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -87,10 +75,10 @@
     <Page Update="Orcamento.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Pesquisa_NF-E.xaml">
+    <Page Update="Prod_Cadastrados.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Prod_Cadastrados.xaml">
+    <Page Update="Recuperar_senha.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Vender_Produtos.xaml">

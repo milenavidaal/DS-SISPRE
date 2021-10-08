@@ -115,5 +115,12 @@ namespace DS_SISPRE
             contas.Show();
             this.Close();
         }
+
+        private void Button_Click_13(object sender, RoutedEventArgs e)
+        {
+            Recuperar_senha recuperar = new Recuperar_senha();
+            recuperar.Show();
+            this.Close();
+        }
     }
 }

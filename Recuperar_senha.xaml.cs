@@ -13,27 +13,22 @@ using System.Windows.Shapes;
 namespace DS_SISPRE
 {
     /// <summary>
-    /// Lógica interna para Novo_Prod.xaml
+    /// Lógica interna para Recuperar_senha.xaml
     /// </summary>
-    public partial class Novo_Prod : Window
+    public partial class Recuperar_senha : Window
     {
-        public Novo_Prod()
+        public Recuperar_senha()
         {
             InitializeComponent();
         }
 
-        private void btnSalvar_Click(object sender, RoutedEventArgs e)
-        {
-           
-                MessageBoxResult result = MessageBox.Show("Produtos Salvados com Sucesso!!", "Mensagem de Confirmação");
-            
-        }
-
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow janela = new MainWindow();
-            janela.Show();
-            this.Close();
+            MessageBoxResult result = MessageBox.Show("Mensagem Enviada ao seu email, verifique sua caixa de entrada!");
+            Random num = new Random(); int tal;
+            tal = num.Next();
+
+            codigo.Text = Convert.ToString(tal);
         }
     }
 }

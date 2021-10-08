@@ -19,7 +19,8 @@
         <Button Content="Realizar Venda" HorizontalAlignment="Center" Margin="0,64,0,0" VerticalAlignment="Top" Width="138" Height="56" Click="Button_Click"/>
         <Button Content="Orçamento Total" HorizontalAlignment="Left" Margin="599,207,0,0" VerticalAlignment="Top" Width="164" Height="50" Click="Button_Click_1"/>
         <Button Content="Lançar notas de Compra" HorizontalAlignment="Center" Margin="0,331,0,0" VerticalAlignment="Top" Width="138" Height="57" Click="Button_Click_11"/>
-        <Button Content="Consultar Clientes" HorizontalAlignment="Center" Height="52" VerticalAlignment="Top" Width="138" Click="Button_Click_5" Margin="0,207,0,0"/>
+        <Button Content="Consultar Clientes" HorizontalAlignment="Center" Height="52" VerticalAlignment="Top" Width="138" Click="Button_Click_5" Margin="0,157,0,0"/>
+        <Button Content="Recuperar Senha" HorizontalAlignment="Center" Height="49" Margin="0,237,0,0" VerticalAlignment="Top" Width="138" Click="Button_Click_13"/>
 
     </Grid>
 </Window>
