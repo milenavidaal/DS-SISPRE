@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\milen\\OneDrive\\Área de Trabalho\\DS-SISPRE\\DS-SISPRE.csproj",
+      "projectUniqueName": "C:\\Users\\milen\\OneDrive\\Documentos\\DS-SISPRE\\DS-SISPRE.csproj",
       "projectName": "DS-SISPRE",
-      "projectPath": "C:\\Users\\milen\\OneDrive\\Área de Trabalho\\DS-SISPRE\\DS-SISPRE.csproj",
+      "projectPath": "C:\\Users\\milen\\OneDrive\\Documentos\\DS-SISPRE\\DS-SISPRE.csproj",
       "packagesPath": "C:\\Users\\milen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\milen\\OneDrive\\Área de Trabalho\\DS-SISPRE\\obj\\",
+      "outputPath": "C:\\Users\\milen\\OneDrive\\Documentos\\DS-SISPRE\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\milen\\AppData\\Roaming\\NuGet\\NuGet.Config",
