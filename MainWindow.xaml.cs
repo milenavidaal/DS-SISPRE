@@ -12,6 +12,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using DS_SISPRE.Models;
+using DS_SISPRE.Database;
+
 
 namespace DS_SISPRE
 {
@@ -24,6 +27,19 @@ namespace DS_SISPRE
         {
             InitializeComponent();
         }
+        
+        private void MainWindow_Load(object sander, RoutedEventArgs e)
+        {
+            try
+            {
+                var conexao = new Conexao();
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);            }
+        }
+
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
