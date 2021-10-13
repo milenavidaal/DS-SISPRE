@@ -11,7 +11,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using DS_SISPRE.Models;
 
-namespace DS_SISPRE
+namespace DS_SISPRE.Views
 {
     /// <summary>
     /// Lógica interna para Vender_Produtos.xaml

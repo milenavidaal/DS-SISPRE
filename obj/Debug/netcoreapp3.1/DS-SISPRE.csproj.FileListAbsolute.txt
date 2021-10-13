@@ -213,3 +213,4 @@ C:\Users\Vitória Maria\Documents\DS-SISPRE\obj\Debug\netcoreapp3.1\DS-SISPRE.ge
 C:\Users\milen\OneDrive\Documentos\DS-SISPRE\obj\Debug\netcoreapp3.1\Views\Cadastrar_Func.g.cs
 C:\Users\milen\OneDrive\Documentos\DS-SISPRE\obj\Debug\netcoreapp3.1\Views\Cadastrar_Func.baml
 C:\Users\milen\OneDrive\Documentos\DS-SISPRE\obj\Debug\netcoreapp3.1\Views\Cadastrar_User.g.cs
+C:\Users\milen\OneDrive\Documentos\DS-SISPRE\obj\Debug\netcoreapp3.1\Views\Vender_Produtos.g.cs
