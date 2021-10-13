@@ -53,7 +53,7 @@ namespace DS_SISPRE {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/DS-SISPRE;component/contas_receber.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/DS-SISPRE;V1.0.0.0;component/contas_receber.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Contas_Receber.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

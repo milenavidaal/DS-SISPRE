@@ -53,7 +53,7 @@ namespace DS_SISPRE {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/DS-SISPRE;component/financas.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/DS-SISPRE;V1.0.0.0;component/financas.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Financas.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
