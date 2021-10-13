@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vitória Maria\\Documents\\DS-SISPRE\\DS-SISPRE.csproj": {}
+    "C:\\Users\\milen\\OneDrive\\Documentos\\DS-SISPRE\\DS-SISPRE.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vitória Maria\\Documents\\DS-SISPRE\\DS-SISPRE.csproj": {
+    "C:\\Users\\milen\\OneDrive\\Documentos\\DS-SISPRE\\DS-SISPRE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vitória Maria\\Documents\\DS-SISPRE\\DS-SISPRE.csproj",
+        "projectUniqueName": "C:\\Users\\milen\\OneDrive\\Documentos\\DS-SISPRE\\DS-SISPRE.csproj",
         "projectName": "DS-SISPRE",
-        "projectPath": "C:\\Users\\Vitória Maria\\Documents\\DS-SISPRE\\DS-SISPRE.csproj",
-        "packagesPath": "C:\\Users\\Vitória Maria\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vitória Maria\\Documents\\DS-SISPRE\\obj\\",
+        "projectPath": "C:\\Users\\milen\\OneDrive\\Documentos\\DS-SISPRE\\DS-SISPRE.csproj",
+        "packagesPath": "C:\\Users\\milen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\milen\\OneDrive\\Documentos\\DS-SISPRE\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Vitória Maria\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\milen\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

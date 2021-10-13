@@ -61,7 +61,7 @@ namespace DS_SISPRE {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/DS-SISPRE;V1.0.0.0;component/recuperar_senha.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/DS-SISPRE;component/recuperar_senha.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Recuperar_senha.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -53,7 +53,7 @@ namespace DS_SISPRE {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/DS-SISPRE;V1.0.0.0;component/controle_relatorios.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/DS-SISPRE;component/controle_relatorios.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Controle_Relatorios.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -10,7 +10,7 @@
     <Compile Update="Views\Cadastrar_Cli.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Cadastrar_Func.xaml.cs">
+    <Compile Update="Views\Cadastrar_Func.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Cadastrar_User.xaml.cs">
@@ -48,7 +48,7 @@
     <Page Update="Views\Cadastrar_Cli.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Cadastrar_Func.xaml">
+    <Page Update="Views\Cadastrar_Func.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Cadastrar_User.xaml">

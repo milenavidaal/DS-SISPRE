@@ -210,3 +210,5 @@ C:\Users\Vitória Maria\Documents\DS-SISPRE\obj\Debug\netcoreapp3.1\DS-SISPRE.dl
 C:\Users\Vitória Maria\Documents\DS-SISPRE\obj\Debug\netcoreapp3.1\DS-SISPRE.pdb
 C:\Users\Vitória Maria\Documents\DS-SISPRE\obj\Debug\netcoreapp3.1\DS-SISPRE.genruntimeconfig.cache
 >>>>>>> main
+C:\Users\milen\OneDrive\Documentos\DS-SISPRE\obj\Debug\netcoreapp3.1\Views\Cadastrar_Func.g.cs
+C:\Users\milen\OneDrive\Documentos\DS-SISPRE\obj\Debug\netcoreapp3.1\Views\Cadastrar_Func.baml

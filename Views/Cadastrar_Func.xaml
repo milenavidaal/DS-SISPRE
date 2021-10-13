@@ -1,9 +1,9 @@
-﻿<Window x:Class="DS_SISPRE.Cadastrar_Func"
+﻿<Window x:Class="DS_SISPRE.Views.Cadastrar_Func"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:DS_SISPRE"
+        xmlns:local="clr-namespace:DS_SISPRE.Views"
         mc:Ignorable="d"
            Title="Cadastrar Cliente" Height="593" Width="925" Background="LightGray">
     <Grid Margin="0,0,0,-6">
@@ -78,7 +78,7 @@
         <Button x:Name="voltar" HorizontalAlignment="Left" Margin="382,511,0,0" VerticalAlignment="Top" Height="33" Width="100" Content="Voltar" Click="voltar_Click"/>
         <TextBox x:Name="email_Copy" HorizontalAlignment="Left" Margin="476,278,0,0" PreviewTextInput="TextBox_PreviewTextInput" TextWrapping="Wrap" VerticalAlignment="Top" Width="254" Height="22" FontSize="17" MaxLines="2"/>
         <Button x:Name="salvar" Content="Salvar" HorizontalAlignment="Left" Margin="815,119,0,0" VerticalAlignment="Top" Height="42" Width="83" Click="Button_Click"/>
-        <Button x:Name="adicionar" Content="Adicionar" HorizontalAlignment="Left" Margin="815,207,0,0" VerticalAlignment="Top" Height="42" Width="83" Click="Button_Click_1"/>
+        <Button x:Name="adicionar" Content="Adicionar" HorizontalAlignment="Left" Margin="815,210,0,0" VerticalAlignment="Top" Height="42" Width="83" Click="Button_Click_1"/>
         <Button x:Name="consultar" Content="Consultar" HorizontalAlignment="Left" Margin="815,298,0,0" VerticalAlignment="Top" Height="42" Width="83"/>
         <Label Content="Data de Admissão" HorizontalAlignment="Left" Margin="10,430,0,0" VerticalAlignment="Top" Width="156" Height="35" FontSize="17"/>
         <ComboBox x:Name="cargo" HorizontalAlignment="Left" Margin="688,378,0,0" VerticalAlignment="Top" Width="210">
