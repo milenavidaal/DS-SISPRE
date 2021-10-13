@@ -4,7 +4,20 @@ using System.Text;
 
 namespace DS_SISPRE.Interface
 {
-    interface IDAO
+    /// <summary>
+    ///     Interface (contrato) para classes DAO
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
+    interface IDAO<T>
     {
+        void Insert(T t);
+
+        void Update(T t);
+
+        void Delete(T t);
+
+        List<T> List();
+
+        T GetById(int id_func);
     }
 }
