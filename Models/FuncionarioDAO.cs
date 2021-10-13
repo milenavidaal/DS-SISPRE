@@ -40,6 +40,8 @@ namespace DS_SISPRE.Models
                 query.Parameters.AddWithValue("@telefone", t.Telefone);
                 query.Parameters.AddWithValue("@funcao", t.Funcao);
 
+                var result = query.ExecuteNonQuery();
+
 
             }
             catch (Exception e)

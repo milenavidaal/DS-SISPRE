@@ -14,6 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using DS_SISPRE.Models;
 using DS_SISPRE.Database;
+using DS_SISPRE.Views;
 
 
 namespace DS_SISPRE
@@ -27,22 +28,14 @@ namespace DS_SISPRE
         {
             InitializeComponent();
         }
-        
-        private void MainWindow_Load(object sander, RoutedEventArgs e)
-        {
-            try
-            {
-                var conexao = new Conexao();
 
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);            }
-        }
+
 
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            Insert_Teste();
+
             Vender_Produtos venda = new Vender_Produtos();
             venda.Show();
             this.Close();    
@@ -137,6 +130,31 @@ namespace DS_SISPRE
             Recuperar_senha recuperar = new Recuperar_senha();
             recuperar.Show();
             this.Close();
+        }
+
+        private void Insert_Teste()
+            {
+            try
+            {
+                Funcionario funcionario = new Funcionario();
+                funcionario.Nome = "Ana da Silva";
+                funcionario.CPF = "489.874.854-84";
+                funcionario.Email = "anasilva@gmail.com";
+                funcionario.Telefone = "(65)9.9856-7847";
+                funcionario.Funcao = "Vendedor";
+
+                FuncionarioDAO funcionarioDAO = new FuncionarioDAO();
+                funcionarioDAO.Insert(funcionario);
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Não Executado", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+            
+
         }
     }
 }

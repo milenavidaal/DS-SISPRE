@@ -11,7 +11,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using System.Text.RegularExpressions;
 
-namespace DS_SISPRE
+namespace DS_SISPRE.Views
 {
     /// <summary>
     /// Lógica interna para Cadastrar_Cli.xaml

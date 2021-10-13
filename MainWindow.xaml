@@ -7,20 +7,25 @@
         mc:Ignorable="d"
            Title="Menu Principal" Height="450" Width="800" Background="LightGray">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="472*"/>
+            <ColumnDefinition Width="79*"/>
+            <ColumnDefinition Width="249*"/>
+        </Grid.ColumnDefinitions>
         <Button Content="Controlar Finanças" HorizontalAlignment="Left" Margin="10,64,0,0" VerticalAlignment="Top" Width="154" Height="50" Click="Button_Click_6"/>
         <Button Content="Cadastrar Novo Funcionário" HorizontalAlignment="Left" Margin="10,138,0,0" VerticalAlignment="Top" Width="154" Height="50" Click="Button_Click_7"/>
         <Button Content="Cadastrar Novo Usuário" HorizontalAlignment="Left" Margin="10,212,0,0" VerticalAlignment="Top" Width="154" Height="50" Click="Button_Click_8"/>
         <Button Content="Cadastrar Novo Produto" HorizontalAlignment="Left" Margin="10,279,0,0" VerticalAlignment="Top" Width="154" Height="50" Click="Button_Click_9"/>
         <Button Content="Produtos Cadastrados" HorizontalAlignment="Left" Margin="10,343,0,0" VerticalAlignment="Top" Width="154" Height="50" Click="Button_Click_10"/>
-        <Button Content="Emitir NF-e" HorizontalAlignment="Left" Margin="599,64,0,0" VerticalAlignment="Top" Width="164" Height="50" Click="Button_Click_4"/>
-        <Button Content="Cadastrar Novo Cliente" HorizontalAlignment="Left" Margin="599,138,0,0" VerticalAlignment="Top" Width="164" Height="50" Click="Button_Click_3"/>
-        <Button Content="Acessar Relatórios de Venda" HorizontalAlignment="Left" Margin="599,279,0,0" VerticalAlignment="Top" Width="164" Height="50" Click="Button_Click_2"/>
-        <Button Content="Contas a Receber" HorizontalAlignment="Left" Margin="599,343,0,0" VerticalAlignment="Top" Width="164" Height="50" Click="Button_Click_12"/>
-        <Button Content="Realizar Venda" HorizontalAlignment="Center" Margin="0,64,0,0" VerticalAlignment="Top" Width="138" Height="56" Click="Button_Click"/>
-        <Button Content="Orçamento Total" HorizontalAlignment="Left" Margin="599,207,0,0" VerticalAlignment="Top" Width="164" Height="50" Click="Button_Click_1"/>
-        <Button Content="Lançar notas de Compra" HorizontalAlignment="Center" Margin="0,331,0,0" VerticalAlignment="Top" Width="138" Height="57" Click="Button_Click_11"/>
-        <Button Content="Consultar Clientes" HorizontalAlignment="Center" Height="52" VerticalAlignment="Top" Width="138" Click="Button_Click_5" Margin="0,157,0,0"/>
-        <Button Content="Recuperar Senha" HorizontalAlignment="Center" Height="49" Margin="0,237,0,0" VerticalAlignment="Top" Width="138" Click="Button_Click_13"/>
+        <Button Content="Emitir NF-e" HorizontalAlignment="Left" Margin="48,64,0,0" VerticalAlignment="Top" Width="164" Height="50" Click="Button_Click_4" Grid.Column="2"/>
+        <Button Content="Cadastrar Novo Cliente" HorizontalAlignment="Left" Margin="48,138,0,0" VerticalAlignment="Top" Width="164" Height="50" Click="Button_Click_3" Grid.Column="2"/>
+        <Button Content="Acessar Relatórios de Venda" HorizontalAlignment="Left" Margin="48,279,0,0" VerticalAlignment="Top" Width="164" Height="50" Click="Button_Click_2" Grid.Column="2"/>
+        <Button Content="Contas a Receber" HorizontalAlignment="Left" Margin="48,343,0,0" VerticalAlignment="Top" Width="164" Height="50" Click="Button_Click_12" Grid.Column="2"/>
+        <Button Content="Realizar Venda" HorizontalAlignment="Left" Margin="331,64,0,0" VerticalAlignment="Top" Width="138" Height="56" Click="Button_Click"/>
+        <Button Content="Orçamento Total" HorizontalAlignment="Left" Margin="48,207,0,0" VerticalAlignment="Top" Width="164" Height="50" Click="Button_Click_1" Grid.Column="2"/>
+        <Button Content="Lançar notas de Compra" HorizontalAlignment="Left" Margin="331,331,0,0" VerticalAlignment="Top" Width="138" Height="57" Click="Button_Click_11"/>
+        <Button Content="Consultar Clientes" HorizontalAlignment="Left" Height="52" VerticalAlignment="Top" Width="138" Click="Button_Click_5" Margin="331,157,0,0"/>
+        <Button Content="Recuperar Senha" HorizontalAlignment="Left" Height="49" Margin="331,237,0,0" VerticalAlignment="Top" Width="138" Click="Button_Click_13"/>
 
     </Grid>
 </Window>
