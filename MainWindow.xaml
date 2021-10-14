@@ -7,8 +7,9 @@
         mc:Ignorable="d"
            Title="Menu Principal" Height="450" Width="800" Background="LightGray">
     <Grid>
-<<<<<<< Updated upstream
-        <Grid.ColumnDefinitions>
+        <Updated upstream>
+            
+            <Grid.ColumnDefinitions>
             <ColumnDefinition Width="472*"/>
             <ColumnDefinition Width="79*"/>
             <ColumnDefinition Width="249*"/>
@@ -42,7 +43,10 @@
         <Button Content="Lançar notas de Compra" HorizontalAlignment="Center" Margin="0,338,0,0" VerticalAlignment="Top" Width="138" Height="50" Background="LightYellow" Click="Button_Click_11"/>
         <Button Content="Consultar Clientes" HorizontalAlignment="Center" Height="50" VerticalAlignment="Top" Width="138" Click="Button_Click_5" Background="LightYellow" Margin="0,158,0,0"/>
         <Button Content="Recuperar Senha" HorizontalAlignment="Left" Height="36" Margin="10,10,0,0" VerticalAlignment="Top" Width="102" Background="SteelBlue" Click="Button_Click_13"/>
->>>>>>> Stashed changes
+> Stashed changes>
+
+        </Updated>
 
     </Grid>
+        
 </Window>

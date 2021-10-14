@@ -14,7 +14,7 @@ namespace DS_SISPRE.Database
 
         private static string user = "root";
 
-        private static string password = "root";
+        private static string password = "23011406";
 
         private static string dbname = "sispre";
 

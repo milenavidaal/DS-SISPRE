@@ -77,7 +77,7 @@
         <TextBox x:Name="bairro" HorizontalAlignment="Left" Margin="319,378,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294" Height="22" FontSize="17"/>
         <Button x:Name="voltar" HorizontalAlignment="Left" Margin="382,511,0,0" VerticalAlignment="Top" Height="33" Width="100" Content="Voltar" Click="voltar_Click"/>
         <TextBox x:Name="email_Copy" HorizontalAlignment="Left" Margin="476,278,0,0" PreviewTextInput="TextBox_PreviewTextInput" TextWrapping="Wrap" VerticalAlignment="Top" Width="254" Height="22" FontSize="17" MaxLines="2"/>
-        <Button x:Name="salvar" Content="Salvar" HorizontalAlignment="Left" Margin="815,119,0,0" VerticalAlignment="Top" Height="42" Width="83" Click="Button_Click"/>
+        <Button x:Name="salvar" Content="Salvar" HorizontalAlignment="Left" Margin="815,119,0,0" VerticalAlignment="Top" Height="42" Width="83" Click="Button_Click" />
         <Button x:Name="adicionar" Content="Adicionar" HorizontalAlignment="Left" Margin="815,210,0,0" VerticalAlignment="Top" Height="42" Width="83" Click="Button_Click_1"/>
         <Button x:Name="consultar" Content="Consultar" HorizontalAlignment="Left" Margin="815,298,0,0" VerticalAlignment="Top" Height="42" Width="83"/>
         <Label Content="Data de Admissão" HorizontalAlignment="Left" Margin="10,430,0,0" VerticalAlignment="Top" Width="156" Height="35" FontSize="17"/>

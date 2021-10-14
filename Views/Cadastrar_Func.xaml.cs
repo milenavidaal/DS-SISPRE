@@ -34,10 +34,7 @@ namespace DS_SISPRE.Views
             MessageBoxResult result = MessageBox.Show("Funcionário Adicionado com Sucesso!!", "Mensagem de Confirmação");
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            MessageBoxResult result = MessageBox.Show("Funcionário Salvo com Sucesso!!", "Mensagem de Confirmação");
-        }
+       
 
         private void voltar_Click(object sender, RoutedEventArgs e)
         {
@@ -62,6 +59,11 @@ namespace DS_SISPRE.Views
             var textBox = sender as TextBox;
             e.Handled = Regex.IsMatch(e.Text, "[^0-9]+");
         }
-      
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+            MessageBoxResult result = MessageBox.Show("Funcionário Salvo com Sucesso!!", "Mensagem de Confirmação");
+
+        }
     }
-}
