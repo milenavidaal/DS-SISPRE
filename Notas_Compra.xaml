@@ -90,9 +90,9 @@
 
         </StackPanel>
         <Button x:Name="voltar" Content="Voltar" HorizontalAlignment="Left" Margin="295,368,0,0" VerticalAlignment="Top" Height="33" Width="69" Grid.Column="1" Click="voltar_Click"/>
-        <Button x:Name="proximo" Content="Próximo" HorizontalAlignment="Left" Margin="210,373,0,0" VerticalAlignment="Top" Height="33" Width="69" Grid.ColumnSpan="2" Grid.Column="2"/>
+        <Button x:Name="proximo" Content="Próximo" HorizontalAlignment="Left" Margin="210,373,0,0" VerticalAlignment="Top" Height="33" Width="69" Grid.ColumnSpan="2" Grid.Column="2" Click="proximo_Click"/>
         <Button x:Name="excluir" Content="Excluir" HorizontalAlignment="Left" Margin="16,368,0,0" VerticalAlignment="Top" Height="33" Width="69" Grid.ColumnSpan="2" Click="excluir_Click"/>
-        <Button x:Name="editar" Content="Editar" HorizontalAlignment="Left" Margin="59,368,0,0" VerticalAlignment="Top" Height="33" Width="69" Grid.Column="1"/>
+        <Button x:Name="editar" Content="Editar" HorizontalAlignment="Left" Margin="59,368,0,0" VerticalAlignment="Top" Height="33" Width="69" Grid.Column="1" Click="editar_Click"/>
         <Button x:Name="salvar" Content="Salvar" HorizontalAlignment="Left" Margin="152,368,0,0" VerticalAlignment="Top" Height="33" Width="69" Grid.Column="1" Click="salvar_Click"/>
 
     </Grid>

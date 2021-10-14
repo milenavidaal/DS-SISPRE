@@ -19,30 +19,30 @@
 
             <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
                 <Button Height="60" Width="70">
-                    <Image Source="img/inserir.jpg"/>
+                    <TextBlock>Inserir</TextBlock>
                 </Button>
-                <TextBlock>Inserir Produto</TextBlock>
+                
             </StackPanel>
 
             <StackPanel Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">
-                <Button Height="60" Width="70">
-                    <Image Source=" img/lupa.jpg"/>
+                <Button Height="60" Width="70" Click="Button_Click_3">
+                    <TextBlock>Buscar</TextBlock>
                 </Button>
-                <TextBlock>Buscar Produto</TextBlock>
+                
             </StackPanel>
 
             <StackPanel Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center">
-                <Button Height="60" Width="70">
-                    <Image Source=" img/check.jpg"/>
+                <Button Height="60" Width="70" Click="Button_Click_2">
+                    <TextBlock>Vender</TextBlock>
                 </Button>
-                <TextBlock>Vender Produto</TextBlock>
+                
             </StackPanel>
 
             <StackPanel Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center">
-                <Button Height="60" Width="70">
-                    <Image Source="img/x.png"/>
+                <Button Height="60" Width="70" Click="Button_Click_1">
+                    <TextBlock>Remover</TextBlock>
                 </Button>
-                <TextBlock>Remover Produto</TextBlock>
+                
             </StackPanel>
 
             <StackPanel Grid.Column="4" HorizontalAlignment="Center" VerticalAlignment="Center">

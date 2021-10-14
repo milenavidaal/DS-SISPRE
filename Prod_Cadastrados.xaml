@@ -16,36 +16,36 @@
             </Button>
 
 
-            <Button Margin="0 20" Height="47" Width="198">
+            <Button Margin="0 20" Height="47" Width="198" Click="Button_Click_1">
                 <StackPanel Orientation="Horizontal">
                     <TextBlock FontSize="14" Padding="10" Width="134">Ordenar p/ Alfabeto</TextBlock>
                     <Image Source="img/az.png"  Width="24" Height="41"/>
                 </StackPanel>
             </Button>
 
-            <Button Margin="0 2" Height="47" Width="196">
+            <Button Margin="0 2" Height="47" Width="196" Click="Button_Click_2">
                 <StackPanel Orientation="Horizontal">
                     <TextBlock FontSize="14" Padding="10" Width="119"><Run Text="Ordenar p/ valor"/></TextBlock>
                     <Image Source="img/valor.png"  Width="28" Height="29"/>
                 </StackPanel>
             </Button>
 
-            <Button Margin="0 20" Height="47" Width="196">
+            <Button Margin="0 20" Height="47" Width="196" Click="Button_Click_3">
                 <StackPanel Orientation="Horizontal">
                     <TextBlock FontSize="14" Padding="10" Width="123"><Run Text="Ordenar p/ quant"/></TextBlock>
                     <Image Source="img/quantidade.png"  Width="37" Height="29"/>
                 </StackPanel>
             </Button>
 
-            <Button Margin="0 " Height="47" Width="196" Cursor="Hand">
+            <Button Margin="0 " Height="47" Width="196" Cursor="Hand" Click="Button_Click_4">
                 <StackPanel Orientation="Horizontal">
                     <TextBlock FontSize="14" Padding="10" Width="132"><Run Text="Valores de Vendas"/></TextBlock>
                     <Image Source="img/valor_venda.png"  Width="28" Height="29"/>
                 </StackPanel>
             </Button>
 
-            <Button Margin="0 20 " Height="47" Width="155" Cursor="Hand">
-                <TextBlock FontSize="20" Padding="10" Width="78"><Run Text="Voltar"/></TextBlock>
+            <Button Margin="0 20 " Height="47" Width="155" Cursor="Hand" Click="Voltar_Click">
+                <TextBlock FontSize="20" Padding="10" Width="78"><Run Text="Voltar" /></TextBlock>
             </Button>
         </StackPanel>
 

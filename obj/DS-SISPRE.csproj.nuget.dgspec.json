@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\milen\\OneDrive\\Documentos\\DS-SISPRE\\DS-SISPRE.csproj": {}
+    "C:\\Users\\bethf\\OneDrive\\Documentos\\PDS\\DS-SISPRE\\DS-SISPRE.csproj": {}
   },
   "projects": {
-    "C:\\Users\\milen\\OneDrive\\Documentos\\DS-SISPRE\\DS-SISPRE.csproj": {
+    "C:\\Users\\bethf\\OneDrive\\Documentos\\PDS\\DS-SISPRE\\DS-SISPRE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\milen\\OneDrive\\Documentos\\DS-SISPRE\\DS-SISPRE.csproj",
+        "projectUniqueName": "C:\\Users\\bethf\\OneDrive\\Documentos\\PDS\\DS-SISPRE\\DS-SISPRE.csproj",
         "projectName": "DS-SISPRE",
-        "projectPath": "C:\\Users\\milen\\OneDrive\\Documentos\\DS-SISPRE\\DS-SISPRE.csproj",
-        "packagesPath": "C:\\Users\\milen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\milen\\OneDrive\\Documentos\\DS-SISPRE\\obj\\",
+        "projectPath": "C:\\Users\\bethf\\OneDrive\\Documentos\\PDS\\DS-SISPRE\\DS-SISPRE.csproj",
+        "packagesPath": "C:\\Users\\bethf\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bethf\\OneDrive\\Documentos\\PDS\\DS-SISPRE\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\milen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bethf\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -63,7 +63,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

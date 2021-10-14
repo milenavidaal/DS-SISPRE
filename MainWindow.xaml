@@ -7,6 +7,7 @@
         mc:Ignorable="d"
            Title="Menu Principal" Height="450" Width="800" Background="LightGray">
     <Grid>
+<<<<<<< Updated upstream
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="472*"/>
             <ColumnDefinition Width="79*"/>
@@ -26,6 +27,22 @@
         <Button Content="Lançar notas de Compra" HorizontalAlignment="Left" Margin="331,331,0,0" VerticalAlignment="Top" Width="138" Height="57" Click="Button_Click_11"/>
         <Button Content="Consultar Clientes" HorizontalAlignment="Left" Height="52" VerticalAlignment="Top" Width="138" Click="Button_Click_5" Margin="331,157,0,0"/>
         <Button Content="Recuperar Senha" HorizontalAlignment="Left" Height="49" Margin="331,237,0,0" VerticalAlignment="Top" Width="138" Click="Button_Click_13"/>
+=======
+        <TextBlock HorizontalAlignment="Center" FontSize="30">Sistema SISPRE</TextBlock>
+        <Button Content="Cadastrar Novo Funcionário" HorizontalAlignment="Left" Margin="32,70,0,0" VerticalAlignment="Top" Width="154" Height="50" Background="LightYellow" Click="Button_Click_7"/>
+        <Button Content="Cadastrar Novo Usuário" HorizontalAlignment="Left" Margin="32,158,0,0" VerticalAlignment="Top" Width="154" Height="50" Background="LightYellow" Click="Button_Click_8"/>
+        <Button Content="Cadastrar Novo Produto" HorizontalAlignment="Left" Margin="32,250,0,0" VerticalAlignment="Top" Width="154" Height="50" Background="LightYellow" Click="Button_Click_9"/>
+        <Button Content="Produtos Cadastrados" HorizontalAlignment="Left" Margin="32,338,0,0" VerticalAlignment="Top" Width="154" Height="50" Background="LightYellow" Click="Button_Click_10"/>
+        <Button Content="Emitir NF-e" HorizontalAlignment="Left" Margin="599,70,0,0" VerticalAlignment="Top" Width="164" Height="50" Background="LightYellow" Click="Button_Click_4"/>
+        <Button Content="Cadastrar Novo Cliente" HorizontalAlignment="Left" Margin="599,158,0,0" VerticalAlignment="Top" Width="164" Height="50" Background="LightYellow" Click="Button_Click_3"/>
+        <Button Content="Acessar Relatórios de Venda" HorizontalAlignment="Left" Margin="599,250,0,0" VerticalAlignment="Top" Width="164" Height="50" Background="LightYellow" Click="Button_Click_2"/>
+        <Button Content="Contas a Receber" HorizontalAlignment="Left" Margin="599,338,0,0" VerticalAlignment="Top" Width="164" Height="50" Background="LightYellow" Click="Button_Click_12"/>
+        <Button Content="Realizar Venda" HorizontalAlignment="Center" Margin="0,70,0,0" VerticalAlignment="Top" Width="138" Height="50" Background="LightYellow" Click="Button_Click"/>
+        <Button Content="Orçamento Total" HorizontalAlignment="Center" Margin="0,250,0,0" VerticalAlignment="Top" Width="138" Height="50" Background="LightYellow" Click="Button_Click_1"/>
+        <Button Content="Lançar notas de Compra" HorizontalAlignment="Center" Margin="0,338,0,0" VerticalAlignment="Top" Width="138" Height="50" Background="LightYellow" Click="Button_Click_11"/>
+        <Button Content="Consultar Clientes" HorizontalAlignment="Center" Height="50" VerticalAlignment="Top" Width="138" Click="Button_Click_5" Background="LightYellow" Margin="0,158,0,0"/>
+        <Button Content="Recuperar Senha" HorizontalAlignment="Left" Height="36" Margin="10,10,0,0" VerticalAlignment="Top" Width="102" Background="SteelBlue" Click="Button_Click_13"/>
+>>>>>>> Stashed changes
 
     </Grid>
 </Window>

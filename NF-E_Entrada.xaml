@@ -26,15 +26,15 @@
         </Grid.ColumnDefinitions>
 
 
-        <StackPanel Grid.Column ="0" Margin="34,40,280,165" Grid.ColumnSpan="2">
+        <StackPanel Grid.Column ="0" Margin="34,40,261,165" Grid.ColumnSpan="2">
             <Label Grid.Column="1" Content="Selecione a empresa NF-e" FontSize="15" HorizontalAlignment="Center"/>
             <ComboBox Height="23" Width="217" Margin="10">
-                <ComboBoxItem Content="XX - Casa dos Presentes"/>
-                <ComboBoxItem Content="XX - Kátia Modas"/>
-                <ComboBoxItem Content="XX - Casa da Sogra"/>
-                <ComboBoxItem Content="XX - 3 Irmãos"/>
+                <ComboBoxItem Content="Casa dos Presentes"/>
+                <ComboBoxItem Content="Kátia Modas"/>
+                <ComboBoxItem Content="Casa da Sogra"/>
+                <ComboBoxItem Content="3 Irmãos"/>
             </ComboBox>
-
+            
             <Label Grid.Column="0" Content="Selecione o arquivo de NF-e para importar" FontSize="15" HorizontalAlignment="Center"/>
             <TextBox x:Name="arquivo" Height="40" Width="292" HorizontalAlignment="Center" Margin="5 " Background="#FFD4CCCC" Cursor="IBeam"/>
 
@@ -43,7 +43,7 @@
         <StackPanel Margin="310,100,0,0" Grid.ColumnSpan="2" HorizontalAlignment="Left" Width="215">
             <Button Margin="45,45,100,2" Grid.Column="1" Cursor="Hand" Width="70" Height="38" >
                 <StackPanel>
-                    <Image Source="/img/a.png" Width="32" Height="24"/>
+                    <TextBlock>Salvar</TextBlock>
                 </StackPanel>
             </Button>
         </StackPanel>
@@ -51,13 +51,13 @@
 
         <Button Margin="95,250,79,85" Grid.Column="0" Cursor="Hand" Click="Button_Click">
             <StackPanel>
-                <TextBlock FontSize="14" Padding="5" Height="37" Width="104"  >Menu Principal</TextBlock >
+                <TextBlock FontSize="14" Padding="5" Height="37" Width="104" HorizontalAlignment="Center" >Menu Principal</TextBlock >
             </StackPanel>
         </Button>
 
         <Button x:Name="importar" Margin="280,250,201,85" Cursor="Hand" Grid.ColumnSpan="2" Click="confirmacao_Importar">
             <StackPanel>
-                <TextBlock FontSize="14" Padding="5" Height="37" Width="74">Importar</TextBlock >
+                <TextBlock FontSize="14" Padding="5" Height="37" Width="74" HorizontalAlignment="Center">Importar</TextBlock >
             </StackPanel>
         </Button>
 
@@ -74,23 +74,23 @@
 
 
 
-        <StackPanel Grid.Column ="2" Margin="2,160,20,6">
-            <Button x:Name="Excluir" Height="47" Width="144" Click="alerta_Excluir">
+        <StackPanel Grid.Column ="3" Margin="2,160,20,6">
+            <Button x:Name="Excluir" Height="47" Width="63" Click="alerta_Excluir">
                 <StackPanel  Orientation="Horizontal" Width="136">
                     <TextBlock FontSize="16" Padding="7"><Run Text="Excluir"/></TextBlock>
-                    <Image Source="/img/lixo.png" Width="60" Height="25"/>
                 </StackPanel>
             </Button>
         </StackPanel>
 
-        <StackPanel Grid.Column ="2" Margin="0, 240, 20, 6">
-            <Button Height="47" Width="144" Cursor="Hand">
+        <StackPanel Grid.Column ="3" Margin="0, 240, 20, 6">
+            <Button Height="47" Width="64" Cursor="Hand" Click="Button_Click_1">
                 <StackPanel Orientation="Horizontal" Width="136">
-                    <TextBlock FontSize="16" Padding="7"><Run Text="Editar"/></TextBlock>
+                    <TextBlock FontSize="16" Padding="7" Width="111"><Run Text="Editar"/></TextBlock>
                     <Image Source="/img/editar.png" Width="70" Height="30"/>
                 </StackPanel>
             </Button>
         </StackPanel>
+
 
     </Grid>
 </Window>

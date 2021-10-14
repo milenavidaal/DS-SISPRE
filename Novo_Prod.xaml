@@ -58,7 +58,7 @@
             </StackPanel>
         </Button>
 
-        <Button Margin="158,220,12,103" Grid.Column="1" Cursor="Hand" Padding="5">
+        <Button Margin="158,220,12,103" Grid.Column="1" Cursor="Hand" Padding="5" >
             <StackPanel>
                 <TextBlock FontSize="14" Padding="5" Height="37" Width="61">Avançar</TextBlock >
             </StackPanel>
@@ -70,7 +70,7 @@
         </StackPanel>
 
         <StackPanel Grid.Column ="1" Margin="9,55,11,79">
-            <Button x:Name="btnConsultar" Height="47" Width="133" Cursor="Hand" >
+            <Button x:Name="btnConsultar" Height="47" Width="133" Cursor="Hand" Click="btnConsultar_Click" >
                 <StackPanel Orientation="Horizontal" Width="93">
                     <TextBlock FontSize="16" Padding="7" Width="86">
 						<Run Text="Consultar"/>
@@ -91,7 +91,7 @@
         </StackPanel>
 
         <StackPanel Grid.Column ="2" Margin="0, 240, 20, 6">
-            <Button Height="47" Width="124" Cursor="Hand">
+            <Button Height="47" Width="124" Cursor="Hand" Click="Button_Click_1">
                 <StackPanel Orientation="Horizontal" Width="89">
                     <TextBlock FontSize="16" Padding="7">
 						<Run Text="Adicionar"/>

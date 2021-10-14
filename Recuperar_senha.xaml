@@ -15,6 +15,6 @@
         <TextBox x:Name="codigo" HorizontalAlignment="Center" Height="32" Margin="0,223,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="208" FontSize="17" IsEnabled="False" MinHeight="7"/>
         <Label Content="Nova Senha:" HorizontalAlignment="Left" Height="30" Margin="61,225,0,0" VerticalAlignment="Top" Width="86"/>
         <Label Content="Não se preocupe, Você poderá modificar isso no futuro" HorizontalAlignment="Left" Height="30" Margin="193,255,0,0" VerticalAlignment="Top" FontSize="10" FontStyle="Italic" Width="332"/>
-
+        <Button Content="Voltar" HorizontalAlignment="Left" Height="44" Margin="501,218,0,0" VerticalAlignment="Top" Width="84" Click="Button_Click_1" />
     </Grid>
 </Window>

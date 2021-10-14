@@ -76,13 +76,7 @@ namespace DS_SISPRE
             this.Close();
         }
 
-        private void Button_Click_6(object sender, RoutedEventArgs e)
-        {
-            Financas financas = new Financas();
-            financas.Show();
-            this.Close();
-        }
-
+    
         private void Button_Click_7(object sender, RoutedEventArgs e)
         {
             Cadastrar_Func funcionario = new Cadastrar_Func();

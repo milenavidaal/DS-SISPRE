@@ -25,7 +25,7 @@ namespace DS_SISPRE
         private void btnSalvar_Click(object sender, RoutedEventArgs e)
         {
            
-                MessageBoxResult result = MessageBox.Show("Produtos Salvados com Sucesso!!", "Mensagem de Confirmação");
+                MessageBoxResult result = MessageBox.Show("Produto Salvo com Sucesso!!", "Mensagem de Confirmação");
             
         }
 
@@ -35,5 +35,15 @@ namespace DS_SISPRE
             janela.Show();
             this.Close();
         }
-    }
+
+		private void btnConsultar_Click(object sender, RoutedEventArgs e)
+		{
+            
+		}
+
+		private void Button_Click_1(object sender, RoutedEventArgs e)
+		{
+
+		}
+	}
 }

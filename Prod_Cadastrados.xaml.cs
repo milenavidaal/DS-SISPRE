@@ -77,6 +77,35 @@ namespace DS_SISPRE
 			dataGridProdutos.ItemsSource = listaTodos_Produtos;
 
 		}
-	
-}
+
+		private void Voltar_Click(object sender, RoutedEventArgs e)
+		{
+			MainWindow janela = new MainWindow();
+			janela.Show();
+			this.Close();
+		}
+
+		
+			
+
+		private void Button_Click_1(object sender, RoutedEventArgs e)
+		{
+			MessageBoxResult result = MessageBox.Show("Me Perdoe... Essa Função ainda não está disponível :(", "Mensagem de Alerta");
+		}
+
+		private void Button_Click_2(object sender, RoutedEventArgs e)
+		{
+			MessageBoxResult result = MessageBox.Show("Me Perdoe... Essa Função ainda não está disponível :(", "Mensagem de Alerta");
+		}
+
+		private void Button_Click_3(object sender, RoutedEventArgs e)
+		{
+			MessageBoxResult result = MessageBox.Show("Me Perdoe... Essa Função ainda não está disponível :(", "Mensagem de Alerta");
+		}
+
+		private void Button_Click_4(object sender, RoutedEventArgs e)
+		{
+			MessageBoxResult result = MessageBox.Show("Me Perdoe... Essa Função ainda não está disponível :(", "Mensagem de Alerta");
+		}
+	}
 }

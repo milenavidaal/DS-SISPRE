@@ -30,7 +30,7 @@
         <TextBox x:Name="senha2" HorizontalAlignment="Left" Margin="162,384,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="550" FontSize="17" MaxLines="1"/>
         <Button Content="Voltar" HorizontalAlignment="Left" Height="42" Margin="22,444,0,0" VerticalAlignment="Top" Width="107" Click="Button_Click_1"/>
         <Button Content="Adicionar Novo Usuário" HorizontalAlignment="Left" Height="42" Margin="318,439,0,0" VerticalAlignment="Top" Width="130" Click="Button_Click"/>
-        <Button Content="Salvar Usuário" HorizontalAlignment="Left" Height="42" Margin="624,444,0,0" VerticalAlignment="Top" Width="106"/>
+        <Button Content="Salvar Usuário" HorizontalAlignment="Left" Height="42" Margin="624,444,0,0" VerticalAlignment="Top" Width="106" Click="Button_Click_2"/>
 
     </Grid>
 </Window>

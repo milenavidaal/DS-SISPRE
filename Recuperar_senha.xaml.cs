@@ -30,5 +30,12 @@ namespace DS_SISPRE
 
             codigo.Text = Convert.ToString(tal);
         }
-    }
+
+		private void Button_Click_1(object sender, RoutedEventArgs e)
+		{
+            MainWindow janela = new MainWindow();
+            janela.Show();
+            this.Close();
+        }
+	}
 }

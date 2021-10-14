@@ -56,5 +56,10 @@ namespace DS_SISPRE
             diretorio.IsChecked = true;
             arquivo1.IsChecked = false;
         }
-    }
+
+		private void Button_Click_1(object sender, RoutedEventArgs e)
+		{
+            MessageBoxResult result = MessageBox.Show("Me Perdoe... Essa Função ainda não está disponível :(", "Mensagem de Alerta");
+        }
+	}
 }

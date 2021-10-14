@@ -19,7 +19,7 @@
         </DataGrid>
         <Button x:Name="salvar" Content="Salvar" HorizontalAlignment="Left" Margin="699,110,0,0" VerticalAlignment="Top" Height="40" Width="76" Click="Button_Click_1"/>
         <Button x:Name="excluir" Content="Excluir" HorizontalAlignment="Left" Margin="699,192,0,0" VerticalAlignment="Top" Height="40" Width="76" Click="Button_Click"/>
-        <Button x:Name="editar" Content="Editar" HorizontalAlignment="Left" Margin="699,302,0,0" VerticalAlignment="Top" Height="40" Width="76"/>
+        <Button x:Name="editar" Content="Editar" HorizontalAlignment="Left" Margin="699,302,0,0" VerticalAlignment="Top" Height="40" Width="76" Click="editar_Click"/>
         <Button Content="Voltar" HorizontalAlignment="Left" Margin="357,388,0,0" VerticalAlignment="Top" Height="40" Width="76" Click="Button_Click_2"/>
 
 

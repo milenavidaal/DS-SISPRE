@@ -62,5 +62,15 @@ namespace DS_SISPRE
             var textBox = sender as TextBox;
             e.Handled = Regex.IsMatch(e.Text, "[^0-9]+");
         }
-    }
+
+		private void editar_Click(object sender, RoutedEventArgs e)
+		{
+            
+        }
+
+		private void proximo_Click(object sender, RoutedEventArgs e)
+		{
+            MessageBoxResult result = MessageBox.Show("Ainda não existe outra Nota de Compra", "Mensagem de Alerta");
+        }
+	}
 }

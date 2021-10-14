@@ -52,5 +52,9 @@ namespace DS_SISPRE
             this.Close();
         }
 
-    }
+		private void editar_Click(object sender, RoutedEventArgs e)
+		{
+
+		}
+	}
 }

@@ -74,6 +74,11 @@ namespace DS_SISPRE
             janela.Show();
             this.Hide();
         }
-    }
+
+		private void Button_Click_2(object sender, RoutedEventArgs e)
+		{
+            MessageBoxResult result = MessageBox.Show("Usuário Salvo com Sucesso!!", "Mensagem de Confirmação");
+        }
+	}
 
 }
