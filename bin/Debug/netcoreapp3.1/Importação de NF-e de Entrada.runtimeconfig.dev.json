@@ -1,8 +1,0 @@
-{
-  "runtimeOptions": {
-    "additionalProbingPaths": [
-      "C:\\Users\\bethf\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\bethf\\.nuget\\packages"
-    ]
-  }
-}
