@@ -839,19 +839,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\milen\\.nuget\\packages\\": {}
+    "C:\\Users\\Willyam\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\milen\\OneDrive\\Documentos\\DS-SISPRE\\DS-SISPRE.csproj",
+      "projectUniqueName": "C:\\Users\\Willyam\\Downloads\\DS-SISPRE-main\\DS-SISPRE-main\\DS-SISPRE.csproj",
       "projectName": "DS-SISPRE",
-      "projectPath": "C:\\Users\\milen\\OneDrive\\Documentos\\DS-SISPRE\\DS-SISPRE.csproj",
-      "packagesPath": "C:\\Users\\milen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\milen\\OneDrive\\Documentos\\DS-SISPRE\\obj\\",
+      "projectPath": "C:\\Users\\Willyam\\Downloads\\DS-SISPRE-main\\DS-SISPRE-main\\DS-SISPRE.csproj",
+      "packagesPath": "C:\\Users\\Willyam\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Willyam\\Downloads\\DS-SISPRE-main\\DS-SISPRE-main\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\milen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Willyam\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -859,7 +859,9 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://packagesource": {},
+        "https://packagesource1": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
@@ -900,7 +902,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

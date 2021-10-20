@@ -14,7 +14,6 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using DS_SISPRE.Models;
 using DS_SISPRE.Database;
-using DS_SISPRE.Views;
 
 
 namespace DS_SISPRE
@@ -27,128 +26,121 @@ namespace DS_SISPRE
         public MainWindow()
         {
             InitializeComponent();
+
+            Loaded += MainWindow_Loaded;
         }
 
+       
 
+        private void MainWindow_Loaded(object sander, RoutedEventArgs e)
+        {
+            try
+            {
+                var connexao = new Conexao();
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }                       
+        }    
 
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Insert_Teste();
-
-            Vender_Produtos venda = new Vender_Produtos();
+            View.Vender_Produtos venda = new View.Vender_Produtos();
             venda.Show();
             this.Close();    
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            Orcamento orcamento = new Orcamento();
+            View.Orcamento orcamento = new View.Orcamento();
             orcamento.Show();
             this.Close();
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-            Controle_Relatorios controle = new Controle_Relatorios();
+            View.Controle_Relatorios controle = new View.Controle_Relatorios();
             controle.Show();
             this.Close();
         }
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
-            Cadastrar_Cli cliente = new Cadastrar_Cli();
+            View.Cadastrar_Cliente cliente = new View.Cadastrar_Cliente();
             cliente.Show();
             this.Close();
         }
 
         private void Button_Click_4(object sender, RoutedEventArgs e)
         {
-            NF_E_Entrada entrada = new NF_E_Entrada();
+            View.NFE_Entrada entrada = new View.NFE_Entrada();
             entrada.Show();
             this.Close();
         }
 
         private void Button_Click_5(object sender, RoutedEventArgs e)
         {
-            Consultar_Cli cliente = new Consultar_Cli();
+            View.Consultar_Cliente cliente = new View.Consultar_Cliente();
             cliente.Show();
             this.Close();
         }
 
-    
+        private void Button_Click_6(object sender, RoutedEventArgs e)
+        {
+            View.Financas financas = new View.Financas();
+            financas.Show();
+            this.Close();
+        }
+
         private void Button_Click_7(object sender, RoutedEventArgs e)
         {
-            Cadastrar_Func funcionario = new Cadastrar_Func();
+            View.Cadastrar_Funcionario funcionario = new View.Cadastrar_Funcionario();
             funcionario.Show();
             this.Close();
         }
 
         private void Button_Click_8(object sender, RoutedEventArgs e)
         {
-            Cadastrar_User user = new Cadastrar_User();
+            View.Cadastrar_Usuario user = new View.Cadastrar_Usuario();
             user.Show();
             this.Close();
         }
 
         private void Button_Click_9(object sender, RoutedEventArgs e)
         {
-            Novo_Prod produto = new Novo_Prod();
+            View.Novo_Produto produto = new View.Novo_Produto();
             produto.Show();
             this.Close();
         }
 
         private void Button_Click_10(object sender, RoutedEventArgs e)
         {
-            Prod_Cadastrados cadastrar = new Prod_Cadastrados();
+            View.Prod_Cadastrados cadastrar = new View.Prod_Cadastrados();
             cadastrar.Show();
             this.Close();
         }
 
         private void Button_Click_11(object sender, RoutedEventArgs e)
         {
-            Notas_Compra compra = new Notas_Compra();
+            View.Notas_Compra compra = new View.Notas_Compra();
             compra.Show();
             this.Close();
         }
 
         private void Button_Click_12(object sender, RoutedEventArgs e)
         {
-            Contas_Receber contas = new Contas_Receber();
+            View.Contas_Receber contas = new View.Contas_Receber();
             contas.Show();
             this.Close();
         }
 
         private void Button_Click_13(object sender, RoutedEventArgs e)
         {
-            Recuperar_senha recuperar = new Recuperar_senha();
+            View.Recuperar_senha recuperar = new View.Recuperar_senha();
             recuperar.Show();
             this.Close();
-        }
-
-        private void Insert_Teste()
-            {
-            try
-            {
-                Funcionario funcionario = new Funcionario();
-                funcionario.Nome = "Ana da Silva";
-                funcionario.CPF = "489.874.854-84";
-                funcionario.Email = "anasilva@gmail.com";
-                funcionario.Telefone = "(65)9.9856-7847";
-                funcionario.Funcao = "Vendedor";
-
-                FuncionarioDAO funcionarioDAO = new FuncionarioDAO();
-                funcionarioDAO.Insert(funcionario);
-
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Não Executado", MessageBoxButton.OK, MessageBoxImage.Error);
-            }
-            
-
         }
     }
 }

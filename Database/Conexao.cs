@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using System.Data;
 using MySql.Data.MySqlClient;
 
 namespace DS_SISPRE.Database
@@ -14,7 +13,7 @@ namespace DS_SISPRE.Database
 
         private static string user = "root";
 
-        private static string password = "23011406";
+        private static string password = "1234saude";
 
         private static string dbname = "sispre";
 
@@ -24,27 +23,15 @@ namespace DS_SISPRE.Database
 
         public Conexao()
         {
-            try 
-            {
-                connection = new MySqlConnection($"server={host}; database={dbname}; port={port}; user={user};password={password}");
-                connection.Open();
-            } catch (Exception)
-            {
-                throw;
-            }
-        }
-        public MySqlCommand Query()
-        {
             try
             {
-                command = connection.CreateCommand();
-                command.CommandType = CommandType.Text;
-
-                return command;
+                connection = new MySqlConnection($"server={host};database={dbname};port={port};user={user};password={password}");
+                connection.Open();
+                 
             }
-            catch(Exception)
+            catch (Exception e)
             {
-                throw;
+                throw e;
             }
         }
 
@@ -52,8 +39,5 @@ namespace DS_SISPRE.Database
         {
             connection.Close();
         }
-
-
-
     }
 }
