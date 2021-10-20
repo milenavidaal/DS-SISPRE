@@ -21,5 +21,32 @@ namespace DS_SISPRE.View
         {
             InitializeComponent();
         }
+
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Prod_Cadastrados cadastrar = new Prod_Cadastrados();
+            cadastrar.Show();
+            this.Close();
+        }
+
+        private void excluir_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBoxResult result = MessageBox.Show("Relatório Excluído com Sucesso!!", "Mensagem de Confirmação");
+        }
+
+        private void salvar_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBoxResult result = MessageBox.Show("Relatório Salvo com Sucesso!!", "Mensagem de Confirmação");
+        }
+
+        private void proximo_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow janela = new MainWindow();
+            janela.Show();
+            this.Close();
+        }
     }
 }
+    
+

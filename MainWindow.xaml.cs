@@ -87,13 +87,6 @@ namespace DS_SISPRE
             this.Close();
         }
 
-        private void Button_Click_6(object sender, RoutedEventArgs e)
-        {
-            View.Financas financas = new View.Financas();
-            financas.Show();
-            this.Close();
-        }
-
         private void Button_Click_7(object sender, RoutedEventArgs e)
         {
             View.Cadastrar_Funcionario funcionario = new View.Cadastrar_Funcionario();

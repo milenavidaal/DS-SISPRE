@@ -5,8 +5,48 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DS_SISPRE.View"
         mc:Ignorable="d"
-        Title="Controle_Relatorios" Height="450" Width="800">
-    <Grid>
-        
+        Title="Controle de Relatórios" Height="400" Width="900" ResizeMode="NoResize"
+        Background="LightGray" >
+    <Grid Margin="0,0,-34,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="211*"></ColumnDefinition>
+            <ColumnDefinition Width="166*"/>
+            <ColumnDefinition Width="215*"/>
+            <ColumnDefinition Width="108*"/>
+
+        </Grid.ColumnDefinitions>
+        <StackPanel Margin="16,150,17,120">
+            <Label Grid.Column="0" FontSize="19" Content="Data do Relatório" HorizontalAlignment="Center" Height="39" Width="159"/>
+            <DatePicker x:Name="entrada" FontSize="15" Height="32" Width="166"/>
+
+        </StackPanel>
+        <StackPanel Grid.Column ="0" Margin="36,24,28,238" Background="White" RenderTransformOrigin="0.469,2.024">
+            <Button Content="Gerenciar Produtos" HorizontalAlignment="Center" Height="46" Width="162"/>
+            <Button Content="Vendas de Produtos " HorizontalAlignment="Center" Height="48" Width="161" Click="Button_Click"/>
+        </StackPanel>
+
+        <StackPanel Grid.Column ="2" Margin="100,47,62,220" Background="LightGreen" Grid.ColumnSpan="2">
+            <Label Content="A Receber" FontSize="25" HorizontalAlignment="Center"/>
+            <Label Content="R$ 0,00" FontSize="25" HorizontalAlignment="Right"/>
+
+        </StackPanel>
+        <StackPanel Margin="10,46,230,220" Background="Salmon" Grid.ColumnSpan="2" Grid.Column="1">
+            <Label Content="A Pagar" FontSize="25" HorizontalAlignment="Center"/>
+            <Label Content="R$ 0,00" FontSize="25" HorizontalAlignment="Right"/>
+
+        </StackPanel>
+
+        <StackPanel Margin="10,192,230,74" Background="SteelBlue" Grid.ColumnSpan="2" Grid.Column="1">
+            <Label Content="Recebimentos do Mês" FontSize="25" Width="255" HorizontalContentAlignment="Center"/>
+            <Label Content="R$ 0,00" FontSize="25" HorizontalAlignment="Right"/>
+        </StackPanel>
+        <StackPanel Margin="100,192,63,74" Background="SteelBlue" Grid.ColumnSpan="2" Grid.Column="2">
+            <Label Content="Pagamentos do Mês" FontSize="25" Width="255" HorizontalContentAlignment="Center"/>
+            <Label Content="R$ 0,00" FontSize="25" HorizontalAlignment="Right"/>
+        </StackPanel>
+        <Button x:Name="proximo" Content="Voltar" HorizontalAlignment="Left" Margin="200,319,0,0" VerticalAlignment="Top" Height="33" Width="69" Grid.Column="2" Grid.ColumnSpan="2" Click="proximo_Click" />
+        <Button x:Name="excluir" Content="Excluir" HorizontalAlignment="Left" Margin="58,319,0,0" VerticalAlignment="Top" Height="33" Width="70" Click="excluir_Click" />
+        <Button x:Name="editar" Content="Editar" HorizontalAlignment="Left" Margin="164,319,0,0" VerticalAlignment="Top" Height="33" Width="70" Grid.ColumnSpan="2" />
+        <Button x:Name="salvar" Content="Salvar" HorizontalAlignment="Left" Margin="271,319,0,0" VerticalAlignment="Top" Height="33" Width="69" Grid.ColumnSpan="2" Click="salvar_Click" />
     </Grid>
 </Window>
